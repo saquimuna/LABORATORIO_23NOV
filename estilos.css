@@ -8,3 +8,26 @@ header { background: #17324f; color: white; padding: 24px; }
 main { margin: 24px auto; max-width: 800px; padding: 16px; }
 footer { text-align: center; padding: 12px; }
 
+section {
+  background: white;
+  border: 1px solid #d9e1ea;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+label { display: block; margin-top: 12px; font-weight: bold; }
+input, select {
+  width: 100%;
+  padding: 9px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+button {
+  background: #2e7d32;
+  color: white;
+  border: 0;
+  padding: 10px 18px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
